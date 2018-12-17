@@ -104,7 +104,7 @@ class App extends Component {
                 </div>
                 <div>
                   <Modal open={descriptionModal} onClose={this.onCloseDescriptionModal} center>
-                    <h2>{name}</h2>
+                    <h1>{name}</h1>
                     <h2>{taste}</h2>
                     <h2>{desc}</h2>
                     <button className="btn btn-action" onClick={this.onlocationModal} style={{backgroundColor: "white", textColor:"green", height: 50, width: 150,fontSize: 20}}>

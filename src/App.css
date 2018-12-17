@@ -28,18 +28,11 @@
   display:'none';
 }
 h1{
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "abril fatface";
+
 }
 h2 { 
- left: 0; 
- width: 100%;
+ font-family: "open sans";
 }
 
 h2 span { 
